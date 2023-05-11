@@ -1,0 +1,7 @@
+.grid{
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    grid-gap: 40px;
+    margin-top: 48.5px;
+    margin-bottom: 165.5px;
+}

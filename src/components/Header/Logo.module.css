@@ -1,0 +1,14 @@
+.topHeader {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 29px;
+  margin-bottom: 25.9px;
+}
+
+.logoImage {
+  margin: auto;
+  width: 180.83px;
+  height: 26.6px;
+}
+
+
