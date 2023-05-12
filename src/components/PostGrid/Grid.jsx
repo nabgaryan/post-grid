@@ -2,7 +2,7 @@
 import PostItem from "./PostItem";
 import classes from "./Grid.module.css";
 
-const Grid = ({ data }) => {
+const Grid = ({ data, onSHowModal }) => {
   //   useEffect(() => {
   //     const fetchData = async () => {
   //       const response = fetch(
@@ -19,7 +19,9 @@ const Grid = ({ data }) => {
 
   const grid = data.map((post, i) => (
     <PostItem
-      key={i}
+      id={post.id}
+      onSHowModal={onSHowModal}
+      key={post.title}
       title={post.title}
       text={post.text}
       tag={post.tags}

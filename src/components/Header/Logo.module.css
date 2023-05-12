@@ -11,4 +11,14 @@
   height: 26.6px;
 }
 
+@media only screen and (max-width: 600px) {
+  .topHeader { 
+    margin-bottom: 38px;
+  }
+
+  .logoImage {
+    width: 163.18px;
+    height: 24px;
+  }
+}
 

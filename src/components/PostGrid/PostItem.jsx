@@ -2,8 +2,8 @@ import classes from "./PostItem.module.css";
 
 const PostItem = (props) => {
   return (
-    <article className={classes.post}>
-      <img src={props.url} alt="Post image" />
+    <article className={classes.post} onClick={() => props.onSHowModal(props.id)}>
+      <img src={props.url} alt="Post" />
       <small className={classes.tag}>{props.tag}</small>
       <h3>{props.title}</h3>
       <div className={classes.postInfo}>
