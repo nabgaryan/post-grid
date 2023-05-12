@@ -13,27 +13,27 @@ const MobileMenu = ({onClose}) => {
       <nav className={classes.mobileNavigation}>
         <ul>
           <li>
-            <a href="#">Demos</a>
+            <a href="https://github.com/">Demos</a>
             <i className={classes.arrow}></i>
           </li>
           <li>
-            <a href="#">Post</a>
+            <a href="https://github.com/">Post</a>
             <i className={classes.arrow}></i>
           </li>
           <li>
-            <a href="#">Features</a>
+            <a href="https://github.com/">Features</a>
             <i className={classes.arrow}></i>
           </li>
           <li>
-            <a href="#">Categories</a>
+            <a href="https://github.com/">Categories</a>
             <i className={classes.arrow}></i>
           </li>
           <li>
-            <a href="#">Shop</a>
+            <a href="https://github.com/">Shop</a>
             <i className={classes.arrow}></i>
           </li>
           <li>
-            <a href="#">Buy Now</a>
+            <a href="https://github.com/">Buy Now</a>
           </li>
         </ul>
       </nav>
