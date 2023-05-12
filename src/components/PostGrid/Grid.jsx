@@ -1,19 +1,17 @@
 // import { useEffect } from "react";
 import PostItem from "./PostItem";
 import classes from "./Grid.module.css";
+// import { useState } from "react";
 
 const Grid = ({ data, onSHowModal }) => {
+  // const [data, setData] = useState([]);
   //   useEffect(() => {
   //     const fetchData = async () => {
   //       const response = fetch(
-  //         "https://cloud.codesupply.co/endpoint/react/data.json",
-  //         { method: "GET" }
+  //         "https://cloud.codesupply.co/endpoint/react/data.json"  //
   //       );
-  //       console.log(response);
-  //       const data = (await response).json();
-
+  //      const data = await response.json();
   //     };
-
   //     fetchData();
   //   }, []);
 
